@@ -7,7 +7,7 @@ import models.Results;
 public class App {
     public static void main(String[] args) throws Exception {
 
-        int tamanio = 300000;
+        int tamanio = 100000;
         SortMethods metodos = new SortMethods();
 
         int[] array = generate(tamanio);

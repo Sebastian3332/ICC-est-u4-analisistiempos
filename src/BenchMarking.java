@@ -11,7 +11,7 @@ public class BenchMarking {
             funcion.call();
             long fin = System.nanoTime();
 
-            long duracion = fin - inicio;
+            double duracion = (fin - inicio)/1_000_000_000.0;
 
             Results results = new Results(duracion);
             return results;
